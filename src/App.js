@@ -1,4 +1,5 @@
 import { Button, ThemeProvider, Alert } from '@react95/core';
+import { Shell3233 } from '@react95/icons';
 import '@react95/icons/icons.css';
 import React from 'react';
 
@@ -30,6 +31,9 @@ function App() {
           ]}
         />
       )}
+      <div>
+        <Shell3233 />
+      </div>
     </ThemeProvider>
   );
 }
